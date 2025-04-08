@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora el Mundo Animal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos al Mundo Animal</h1>
+        <nav>
+            <ul>
+                <li><a href="volador.html">Animales Voladores</a></li>
+                <li><a href="terrestre.html">Animales Terrestres</a></li>
+                <li><a href="acuatico.html">Animales Acuáticos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Conoce a los Animales de Nuestro Planeta</h2>
+            <p>Los animales son una parte vital de la biodiversidad del planeta. Están clasificados en diferentes categorías según su hábitat y características. En esta página exploraremos tres grandes grupos: los animales voladores, terrestres y acuáticos. ¡Sigue navegando para descubrir más!</p>
+        </section>
+
+        <section class="destacados">
+            <h2>Animales Destacados</h2>
+            <div class="animal-cards">
+                <div class="card">
+                    <img src="img/Aquila.jpg" alt="Águila Real">
+                    <h3>Águila Real</h3>
+                    <p>El águila real es conocida por su aguda visión y su poder de caza. Puede ver presas a kilómetros de distancia.</p>
+                    <a href="volador.html">Descubre más</a>
+                </div>
+                <div class="card">
+                    <img src="img/leon.jpg" alt="León">
+                    <h3>León</h3>
+                    <p>El rey de la selva, conocido por su fuerza y liderazgo dentro de su manada. Un símbolo de poder y majestuosidad.</p>
+                    <a href="terrestre.html">Descubre más</a>
+                </div>
+                <div class="card">
+                    <img src="img/ballena.jpg" alt="Ballena Azul">
+                    <h3>Ballena Azul</h3>
+                    <p>La ballena azul es el animal más grande que ha existido en la Tierra. ¡Pesa tanto como 30 elefantes juntos!</p>
+                    <a href="acuatico.html">Descubre más</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="informacion">
+            <h2>¿Sabías que...?</h2>
+            <ul>
+                <li><strong>El colibrí</strong> puede volar hacia atrás y suspenderse en el aire gracias a sus alas especiales.</li>
+                <li><strong>El tiburón blanco</strong> tiene una mordida tan poderosa que puede romper huesos humanos con facilidad.</li>
+                <li><strong>Las tortugas marinas</strong> pueden vivir hasta 100 años y viajar miles de kilómetros a través de los océanos.</li>
+                <li><strong>Los delfines</strong> son animales extremadamente inteligentes y tienen su propio sistema de comunicación.</li>
+            </ul>
+        </section>
+
+        <section class="historia">
+            <h2>Un Poco de Historia</h2>
+            <p>Desde los primeros dinosaurios que dominaron la Tierra, hasta los animales que conocemos hoy, la evolución ha transformado a las especies para adaptarse a diferentes entornos. Los mamíferos voladores, como los murciélagos, y los acuáticos, como las ballenas, han experimentado cambios impresionantes en su fisiología. Cada grupo de animales tiene su propia historia fascinante que contar.</p>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas sobre algún animal en particular? ¿O tal vez te gustaría colaborar con nosotros para compartir más información sobre el reino animal? ¡No dudes en ponerte en contacto!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Tu correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mundo Animal | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
